@@ -1,0 +1,15 @@
+{
+    "description": "Default sane automerge config for all repositories in this org",
+    "extends": [
+        ":dependencyDashboard",
+        "config:recommended",
+        ":automergeMinor",
+        "schedule:automergeEarlyMondays",
+        ":automergePr",
+        ":automergeRequireAllStatusChecks",
+        ":enableVulnerabilityAlerts",
+        "docker:enableMajor",
+        ":enablePreCommit",
+        "labels(pr-deps)"
+    ]
+}
