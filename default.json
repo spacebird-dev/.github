@@ -10,6 +10,6 @@
         ":enableVulnerabilityAlerts",
         "docker:enableMajor",
         ":enablePreCommit",
-        "labels(pr-deps)"
+        ":labels(pr-deps)"
     ]
 }
