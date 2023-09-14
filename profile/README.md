@@ -2,6 +2,6 @@
 
 Utilities for Infrastructure, DevOps and related fields. 
 
-Developed and maintaned by @maxhoesel and contributors.
+Developed and maintaned by [@maxhoesel](https://github.com/maxhoesel) and contributors.
 
 
